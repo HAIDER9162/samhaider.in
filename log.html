@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login For Haider</title>
+</head>
+<body>
+    <h1>User Login</h1>
+    <form action="./contant.html" method="post">
+        <lebel for="username">1.Username : </lebel>
+        <input type="text" id="username" placeholder="username" required> <br> <br>
+
+        <lebel for="password">2.Password : </lebel>
+        <input type="password" id="password" placeholder="your password" required> <br> <br>
+
+        <lebel for="email">3.Email : </lebel>
+        <input type="email" id="email" placeholder="your email" required> <br>
+
+        <p>4.Select Your Gender</p>
+
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="male" value="Gender" required>
+        
+        <label for="female">Female </label>
+        <input type="radio" name="gender" id="female" value="Gender" required>
+        
+        <label for="other">Other </label>
+        <input type="radio" name="gender" id="other" value="Gender" required> <br> <br>
+
+        <label for="age-group">5.Select Your Age Group </label>
+        <select name="age-group" id="age-group">
+            <option value="Select">Select_</option>
+            <option value="10-20">10-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-40">31-40</option>            
+            <option value="41-50">41-50</option>
+        </select>
+    
+        <p>6.Comment Below</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea>
+        <br> <br>
+        7.Pick a color <input type="color" name="" id="">
+        <br> <br>
+        8.Date : <input type="date" name="" id="">
+        <br> <br>
+        9.File : <input type="file" name="" id="">
+        <br> <br>
+        <input type="submit" value="Sing In">
+    </form>
+</body>
+</html>

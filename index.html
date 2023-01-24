@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haider Form</title>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Registration Form ~ Haider Devolpere</h2>
+        <div class="form-container">
+            <form>
+
+                <div class="input-name">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="First Name" class="name" required>
+
+                    <span>
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Last Name" class="name" required>
+                    </span>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa fa-envelope lock"></i>
+                    <input type="email" placeholder="Email" class="text-name" required>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa fa-lock lock"></i>
+                    <input type="password" placeholder="Password" class="text-name" required>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa fa-lock email"></i>
+                    <input type="password" placeholder="Conform Password" class="text-name"  required>
+                </div>
+
+                <div class="input-name">
+                    
+                    <input type="radio" class="radio-button" name="g1">
+                    <label style="margin: 10px;">Male</label>
+
+                    <input type="radio" class="radio-button" name="g1">
+                    <label style="margin: 10px;">Female</label>
+
+                    <input type="radio" class="radio-button" name="g1">
+                    <label style="margin: 10px;">Other</label>
+
+                </div>
+
+                <div class="input-name">
+
+                    <select class="country">
+                        <option>Select Country</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Bhutan</option>
+                        <option>Bangladesh</option>
+                    </select>
+                    <div class="arrow"></div>
+
+                </div>
+
+                <div class="input-name">
+                    <input type="checkbox" id="cb" class="check-button" required>
+                    <label for="cb" class="check">I accept your turms and condition.</label>
+                </div>
+
+                <div class="input-name">
+                    <input type="submit" class="button" value="Register">
+                </div>
+                
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
